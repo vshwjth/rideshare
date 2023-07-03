@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section{
+    align-items: center;
+    display: flex;
+    height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+    padding-left: 20px ;
+    font-size: 35px;
+    display:inline;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.clearsrch.SecondaryBtn{
+    border: none;
+    transition: text-decoration ease-in-out .1s;
 }
 
-.App-link {
-  color: #61dafb;
+.clearsrch.SecondaryBtn:hover{
+    background: #00000000;
+    border: 1px solid #737373cc;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clearsrch.SecondaryBtn:active{
+    background: #00000000;
+    border: 1px solid #ffffffcc;
+}
+
+
+
+.navBar{
+    position: sticky;
+    top: 0;
+    background-color: #121212cc;
+    backdrop-filter: blur(5px);
+    z-index: 1;
 }

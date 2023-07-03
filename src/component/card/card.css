@@ -1,0 +1,130 @@
+
+.card{
+    /* box-sizing: border-box; */
+    /* width: 290px; */
+    /* max-width: 400px; */
+    /* max-height: 220px; */
+    padding: 1rem;
+    background-color: #181818;
+    display: inline-block;
+    padding: 10px 20px 20px 25px;
+    margin: 20px;
+    border: 1px solid #51576a9a;
+    border-radius: 9px;
+    transition: border .01s;
+    white-space: nowrap;
+}
+
+hr{
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.Name{
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px 15px 10px 0px;
+    font-weight: bold;
+}
+.arrow{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.line{
+    padding: 0px;
+    color: rgb(155, 155, 155);
+    padding-left: 3px;
+    padding-bottom: 2px;
+    margin: 0px;
+    align-content: center;
+    /* justify-content: center; */
+    display: flex;
+}
+
+.Icon{
+    color: #5064a0;
+    display: inline;
+}
+
+.Loc{
+    width: 240px;
+    display: inline-block;
+    padding: 5px 10px 5px 0px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 4px;
+}
+
+.Date{
+    width: 100px;
+    display: inline-block;
+    padding: 5px 10px 5px 0px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 4px;
+}
+
+
+.delBtn{
+    float: right;
+    margin: 5px;
+    align-items: center;
+    align-content: center;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(45, 45, 45);
+    background-color: #00000000;
+    font-size: medium;
+    border-radius: 4px;
+    transition: color .1s;
+}
+
+.card:hover .delBtn{
+    opacity: 0.7;
+}
+
+.card:hover .trashIcon{
+    color: white;
+}
+
+.card:hover .delBtn:hover{
+    opacity: 1;
+    border: 1px solid rgb(222, 39, 39);
+}
+
+.card:hover .delBtn:hover .trashIcon{
+    color: rgb(222, 39, 39);
+}
+
+
+.editBtn{
+    float: right;
+    margin: 5px;
+    align-items: center;
+    align-content: center;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(45, 45, 45);
+    background-color: #00000000;
+    font-size: medium;
+    border-radius: 4px;
+    transition: color .1s;
+}
+
+.card:hover .editBtn{
+    opacity: 0.7;
+}
+
+.card:hover .editBtn .editIcon{
+    color: white;
+}
+
+.card:hover .editBtn:hover{
+    opacity: 1;
+    border: 1px solid rgb(243, 210, 93);
+}
+
+.card:hover .editBtn:hover .editIcon{
+    color: rgb(243, 210, 93);
+}
